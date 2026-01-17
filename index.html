@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trader Joe’s Rewards</title>
+
+<style>
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f2f2f2;
+}
+
+.wrapper {
+  max-width: 420px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 20px 16px 110px;
+}
+
+/* IMAGE */
+.logo {
+  width: 130px;
+  margin: 15px auto 5px;
+  display: block;
+}
+
+h1 {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 800;
+  margin: 20px 0 25px;
+  color: #c8102e;
+}
+
+.step {
+  border: 1px solid #e1e1e1;
+  border-radius: 14px;
+  padding: 14px 16px;
+  margin-bottom: 14px;
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+}
+
+.step span {
+  font-weight: 800;
+  color: #c8102e;
+}
+
+/* FAQ */
+.faq {
+  margin-top: 20px;
+}
+
+.faq h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #c8102e;
+}
+
+.faq-item {
+  border: 1px solid #e1e1e1;
+  border-radius: 12px;
+  padding: 12px 14px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.faq-item strong {
+  display: block;
+  margin-bottom: 4px;
+}
+
+/* MOBILE CTA */
+.cta-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #ffffff;
+  padding: 14px 16px 18px;
+  box-shadow: 0 -4px 12px rgba(0,0,0,0.15);
+}
+
+.cta {
+  width: 100%;
+  height: 56px;
+  background: #c8102e;
+  color: #ffffff;
+  border: none;
+  border-radius: 14px;
+  font-size: 20px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.note {
+  text-align: center;
+  font-size: 12px;
+  color: #777;
+  margin-top: 8px;
+}
+
+/* DESKTOP FIX */
+@media (min-width: 768px) {
+  .wrapper {
+    padding-bottom: 40px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+  }
+
+  .cta-bar {
+    position: static;
+    box-shadow: none;
+    margin-top: 24px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="wrapper">
+  <img src="https://i.ibb.co/Y7bbZ61K/pngwing-com.png" class="logo" alt="Trader Joe’s">
+
+  <h1>Five Simple Steps…</h1>
+
+  <div class="step"><span>1.</span> Click “Get Started” below 👇</div>
+  <div class="step"><span>2.</span> Answer a few quick questions 📝</div>
+  <div class="step"><span>3.</span> Enter your email and details</div>
+  <div class="step"><span>4.</span> Complete 5 deals 💰</div>
+  <div class="step"><span>5.</span> Receive a $100 Trader Joe’s reward 🛒</div>
+
+  <div class="faq">
+    <h2>Quick Questions</h2>
+
+    <div class="faq-item">
+      <strong>Why do I need to complete the deals?</strong>
+      The deals help sponsor the promotion and unlock reward eligibility.
+    </div>
+
+    <div class="faq-item">
+      <strong>How long does it take?</strong>
+      Most users complete everything in about 30–40 minutes.
+    </div>
+
+    <div class="faq-item">
+      <strong>Do I need to pay?</strong>
+      Some offers may include a trial, but many are free. Complete 4–5 to qualify.
+    </div>
+
+    <div class="faq-item">
+      <strong>When do I receive my reward?</strong>
+      After completing all required deals, your reward is processed and delivered per instructions.
+    </div>
+  </div>
+
+  <div class="cta-bar">
+    <button class="cta" onclick="go()">Get Started</button>
+    <div class="note">Limited availability • While supplies last</div>
+  </div>
+</div>
+
+<script>
+function go() {
+  setTimeout(function () {
+    window.location.href = "https://glctrk.org/aff_c?offer_id=2358&aff_id=5400";
+  }, 600);
+}
+</script>
+
+</body>
+</html>
